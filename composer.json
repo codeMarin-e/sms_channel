@@ -1,0 +1,27 @@
+{
+    "name": "marinar/sms_channel",
+    "description": "Frontsoftware sms channel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marin Ivanov",
+            "email": "marin@dev.nddesign.no"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Marinar\\SMSChannel\\": "src/"
+        }
+    },
+
+    "require": {
+    },
+    "extra": {
+        "marinar": {
+            "module": false,
+            "plugin": true,
+            "addon_to": false
+        }
+    }
+}
